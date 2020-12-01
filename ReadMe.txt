@@ -35,3 +35,5 @@ git config --global --unset core.editor
 
 What is the command to open the global configuration in an editor?
 git config --global -e
+
+--Gonfig ============================
