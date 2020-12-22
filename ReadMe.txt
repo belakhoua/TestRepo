@@ -21,8 +21,19 @@ git remote add origin https://github.com/belakhoua/TestRepo.git
 --push changes
 git push –u origin master
 
+--show commit history
+git log --oneline
 
---Gonfig ============================
+--show differences between commits
+git difftool 3f1e77f 244259f
+
+--show changes
+git diff HEAD
+
+git difftool ReadMe.txt
+
+
+--Config ============================
 
 What is the command to get the default editor value to display in the terminal?
 git config --global --get core.editor
@@ -35,5 +46,11 @@ git config --global --unset core.editor
 
 What is the command to open the global configuration in an editor?
 git config --global -e
+
+--show diff tool
+git config --global --get diff.tool
+
+--set default diff tool
+git config --global diff.tool default-diffTool
 
 --Gonfig ============================
